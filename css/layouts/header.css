@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+.header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background-color: orangered;
+    font-size: 24px;
+    height: 120px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header .navbar{
+    display: flex;
+    font-weight: 900;
+}
+
+.header .navbar .navbar-list{
+    height: 100%;
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    color: yellow;
+    gap: 50px;
+}
+
+.header .cart{
+    height: 100%;
+    width: auto;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    color: white;
+    gap: 10px;
+    padding: 20px;
+}
+
+.header .cart .material-symbols-outlined{
+    display: flex;
+    font-size: 60px;
+}
+
+.header .cart .cart-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
